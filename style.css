@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+}
+
+.cabecalho {
+  width: 100%;
+  background-color: #023;
+  display: flex;
+  position: fixed;
+}
+
+.logo {
+  display: flex;
+  width: 30%;
+  height: 7rem;
+  margin-left: 10%;
+}
+
+.menu {
+  color: white;
+  width: 30%;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  font-size: 2rem;
+  justify-content: space-between;
+  margin-left: 10%;
+}
+
+.nome {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-top: 5%;
+  color: white;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* Parte do sobre do site */
+.modulo1 {
+  background-color: grey;
+  margin-top: 0%;
+  padding-top: 10%;
+}
+
+.box-historia {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 10%;
+  margin-left: 15%;
+}
+
+.historia {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.box-img-empresa {
+  padding-left: 5%;
+}
+
+.img-empresa {
+  border-radius: 10px;
+  height: 14rem;
+  margin-bottom: 5%;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* Parte de Shop do site */
+.modulo2 {
+  background-color: #023;
+}
+
+.box-modelos {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  padding-bottom: 3%;
+}
+
+.compra {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-top: 5%;
+  color: white;
+  padding-bottom: 4%;
+}
+
+.box-tenis1,
+.box-tenis2,
+.box-tenis3,
+.box-tenis4,
+.box-tenis5 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
+  border: 1px solid white;
+  border-radius: 10px;
+  /* -webkit-font-smoothing: antialiased; */
+}
+
+.nome-tenis {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.preço-tenis {
+  display: flex;
+  justify-content: center;
+  margin-top: -5%;
+  color: white;
+}
+
+.img-tenis {
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 1080px) {
+  /* Parte do cabeçaho do site */
+
+  .logo {
+    margin-left: 2%;
+  }
+
+  .menu {
+    font-size: 1rem;
+    margin-left: -4%;
+  }
+
+  li {
+    padding-left: 20%;
+  }
+
+  /* ----------------------------------------------------------------------------------------------------- */
+
+  /* Parte do sobre do site */
+  .nome {
+    font-size: 1.8rem;
+    margin-top: 30%;
+  }
+
+  .box-historia {
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+
+  .historia {
+    font-size: 0.4rem;
+  }
+
+  .img-empresa {
+    width: 8rem;
+    height: 6rem;
+    padding-top: 4%;
+    border-radius: 16px;
+    padding-left: 2%;
+  }
+
+  /* ----------------------------------------------------------------------------------------------------- */
+
+  /* Parte do Shop do site */
+  .compra {
+    font-size: 1.8rem;
+    padding-top: 13%;
+  }
+
+  .box-modelos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .box-tenis1,
+  .box-tenis2,
+  .box-tenis3,
+  .box-tenis4,
+  .box-tenis5 {
+    display: flex;
+    margin-bottom: 2rem;
+    width: 30%;
+  }
+
+  .nome-tenis {
+    font-size: 0.7rem;
+    padding: 3%;
+  }
+
+  .preço-tenis {
+    font-size: 0.5rem;
+  }
+
+  .img-tenis {
+  }
+}
