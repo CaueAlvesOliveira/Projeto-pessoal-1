@@ -8,7 +8,7 @@ O repositório contém:
 1. Desenvolvimento web de uma plataforma de loja de tenis.
 
 O site foi desenvolvido em HTML, CSS e JavaScript, no VScode e hospedado no github em:
-
+https://cauealvesoliveira.github.io/treino-de-js/Site/
 
 ---
 
